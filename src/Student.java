@@ -1,3 +1,10 @@
+// Record type:
+// From JDK 16
+// Replace boilerplate of POJO, more restrictive
+// Contains data that's not meant to be altered. IMMUTABLE
+// Constructors and getters
+// I don't have to write this
+
 public class Student {
 
     private String id;

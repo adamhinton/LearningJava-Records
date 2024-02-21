@@ -1,8 +1,10 @@
+
+
 public class Main {
     public static void main(String[] args) {
 
         for(int i=1; i<=5; i++){
-            Student s = new Student("592300" + i,
+            Student s = new     Student("592300" + i,
                     switch(i){
                         case 1 -> "Mary";
                         case 2 -> "Carol";
