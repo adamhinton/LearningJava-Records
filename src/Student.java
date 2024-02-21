@@ -11,4 +11,14 @@ public class Student {
         this.dateOfBirth = dateOfBirth;
         this.classList = classList;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", classList='" + classList + '\'' +
+                '}';
+    }
 }
